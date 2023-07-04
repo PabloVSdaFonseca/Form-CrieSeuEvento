@@ -62,7 +62,6 @@ form {
 
 fieldset {
     border: none;
-
 }
 
 .fieldset-wrapper {
@@ -87,11 +86,10 @@ fieldset legend {
 }
 
 .input-wrapper label, .checkbox-wrapper label {
-font-size: 14px;
-line-height: 24px;
-color: #4E4958;
-margin-bottom: 8px;
-
+    font-size: 14px;
+    line-height: 24px;
+    color: #4E4958;
+    margin-bottom: 8px;
 }
 
 .input-wrapper label span {
@@ -115,7 +113,7 @@ margin-bottom: 8px;
 }
 
 .input-wrapper textarea {
-    padding: 0;
+    padding: 10px 24px;
     height: 168px;
 
 }
@@ -156,12 +154,12 @@ margin-bottom: 8px;
 }
 
 .checkbox-wrapper label::before {
-content: '';
-width: 24px;
-height: 24px;
-border: 1px solid #E6E6F0;
-border-radius: 8px;
-display: block;
+    content: '';
+    width: 24px;
+    height: 24px;
+    border: 1px solid #E6E6F0;
+    border-radius: 8px;
+    display: block;
 }
 
 .checkbox-wrapper input:checked + label::before {
@@ -173,16 +171,16 @@ display: block;
 }
 
 .footer {
-height: 136px;
-background: #F0F0F4;
-display: flex;
-flex-direction: column;
-padding: 40px 64px;
-margin-bottom: 100px;
+    height: 136px;
+    background: #F0F0F4;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 64px;
+    margin-bottom: 100px;
 
-border-top: 1px solid #D6D6D6;
+    border-top: 1px solid #D6D6D6;
 
-border-radius: 0 0 8px 8px;
+    border-radius: 0 0 8px 8px;
 }
 
 footer .button {
@@ -198,6 +196,7 @@ footer .button {
 
 footer .button:hover {
     background: #02803a;
+    cursor: pointer;
 }
 
 input:invalid {
