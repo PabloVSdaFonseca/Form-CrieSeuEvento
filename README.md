@@ -1,4 +1,4 @@
-<h1 align="center"> Crie ser evento </h1>
+<h1 align="center"> Crie seu evento </h1>
 
 <p align="center">
 Aplicação desenvolvida no Stage 03 do programa Explorer da Rocketseat.
